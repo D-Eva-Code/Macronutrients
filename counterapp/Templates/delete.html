@@ -1,0 +1,15 @@
+<html>
+
+    <head>
+
+    </head>
+    <body>
+        <div class = "container">
+            <form method = "POST">
+                {% csrf_token %}
+                <h4>Are You sure You want to delete {{deletconsumed}}?</h4>
+                <button type = "submit">Yes</button>
+            </form>
+        </div>
+    </body>
+</html>
